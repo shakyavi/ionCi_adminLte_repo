@@ -1,0 +1,71 @@
+/*!
+ * FullCalendar v2.0.2 Print Stylesheet
+ * Docs & License: http://arshaw.com/fullcalendar/
+ * (c) 2013 Adam Shaw
+ */
+
+/*
+ * Include this stylesheet on your page to get a more printer-friendly calendar.
+ * When including this stylesheet, use the media='print' attribute of the <link> tag.
+ * Make sure to include this stylesheet IN ADDITION to the regular fullcalendar.css.
+ */
+ 
+ 
+ /* Events
+-----------------------------------------------------*/
+ 
+@media screen,print {
+        
+body {
+		margin: 0;
+		padding: 0;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		font-size: 14px;
+	}
+
+#calendar {
+        width: 100% !important;
+        margin: 20px auto;
+}
+.red{
+    /*width:6px!important;*/
+    /*height:6px !important;*/
+    /*border-radius:50%;*/
+    /*background:#ff0000 !important;*/
+    background:#FC8D8D !important;
+    -webkit-print-color-adjust: exact; 
+    /*line-height:100px;*/
+    /*display: inline-block; margin-right: 2px;*/
+}
+.green{
+    /*width:6px!important;*/
+    /*height:6px !important;*/
+    /*border-radius:50%;*/
+    /*background:#006f0a !important;*/
+    background:#53FC69 !important;
+    -webkit-print-color-adjust: exact; 
+    /*line-height:100px;*/
+    /*display: inline-block; margin-right: 2px;*/
+}
+.yellow{
+    /*width:6px!important;*/
+    /*height:6px !important;*/
+    /*border-radius:50%;*/
+    /*background:#fac200 !important;*/
+    background:#FCF480 !important;
+    -webkit-print-color-adjust: exact; 
+    /*line-height:100px;*/
+    /*display: inline-block; margin-right: 2px;*/
+}
+.blue{
+    /*width:6px!important;*/
+    /*height:6px !important;*/
+    /*border-radius:50%;*/
+    /*background:#0c5083 !important;*/
+    background:#8BDAEB !important;
+    -webkit-print-color-adjust: exact; 
+    /*line-height:100px;*/
+    /*display: inline-block; margin-right: 2px;*/
+}
+}
+	
